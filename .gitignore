@@ -1,0 +1,18 @@
+# Terraform provider plugins/modules (downloaded by `terraform init`)
+**/.terraform/*
+
+# State files (may contain secrets)
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Variable files that may contain secrets
+*.tfvars
+*.tfvars.json
+
+# CLI config
+.terraformrc
+terraform.rc
