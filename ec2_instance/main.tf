@@ -58,7 +58,3 @@ resource "aws_instance" "ec2_server" {
   }
 }
 
-resource "aws_s3_object" "myfile" {
-    source = "./hello.txt"
-    key ="hi.txt"
-}   
